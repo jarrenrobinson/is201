@@ -2,26 +2,27 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightblue;
     background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/169/521/small/asanoha-japanese-traditional-style-abstract-geometric-shape-seamless-pattern-with-subtle-blue-color-background-vector.jpg");
-    color:crimson;/* This is for font color*/
+    color:black;/* This is for font color*/
 }
 img{
     display: block;
     /*content*/
     padding: 5px;
-    border: 2px solid red;
+    border: 2px solid black;
     margin: auto;
 }
 a{
-    color: crimson;
+    color: black;
 }
 a:visited{
-    color: crimson;
+    color: purple;
 }
 li{
     font-style: italic;
+    font-size: x-large;
 }
 li:hover{
-    font-size: 105%;
+    font-size: 155%;
     text-decoration: underline;
     background-color: coral;
 }
@@ -44,6 +45,8 @@ li:hover{
     right: 0;
     z-index: 1;
     background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
 }
 .footer{
     position: fixed;
@@ -62,4 +65,32 @@ li:hover{
 .gallery img{
     display: inline;
     width: 19%;
+}
+
+.smallfont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    text-align: center;
+}
+
+.navfont{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.header{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.bottom{
+    position: absolute;
+    top: 1000px;
 }
